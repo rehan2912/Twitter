@@ -1,0 +1,39 @@
+.posts {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  gap: 20px;
+  justify-content: center;
+}
+
+label[for="date-picker"] {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+input[type="date"] {
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+  }
+
+@media only screen and (max-width: 767px) {
+  .posts {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    gap: 20px;
+    margin-right: 60px ;
+  }
+}
